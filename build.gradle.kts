@@ -9,13 +9,12 @@ plugins {
     id("com.gradle.plugin-publish") version "0.14.0"
 }
 
-group = "aexyn.android"
+group = "com.github.ankitahuja0508"
 version = "1.0.0"
 
 pluginBundle {
-    website = "http://aexyn.com/"
     vcsUrl = "https://github.com/ankitahuja0508/AndroidGradlePlugin.git"
-    tags = listOf("android")
+    tags = listOf("android", "kotlin", "common dependencies")
 }
 
 repositories {
@@ -35,7 +34,7 @@ dependencies {
 gradlePlugin {
     // Define the plugin
     val plugin by plugins.creating {
-        id = "com.aexyn.plugin.android"
+        id = "com.github.ankitahuja0508"
         displayName = "Android general Plugin"
         description = "This plugin contains most general dependencies that can be used in an AndroidProject"
         implementationClass = "AexynAndroidPlugin"
