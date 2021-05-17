@@ -13,6 +13,7 @@ group = "com.github.ankitahuja0508"
 version = "1.0.0"
 
 pluginBundle {
+    website = "https://github.com/ankitahuja0508"
     vcsUrl = "https://github.com/ankitahuja0508/AndroidGradlePlugin.git"
     tags = listOf("android", "kotlin", "common dependencies")
 }
