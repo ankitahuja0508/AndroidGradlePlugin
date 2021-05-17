@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "aexyn.android",
+    "module": "AndroidPlugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "ge2tnvxt5ne4hlacp2h7luyfb4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "AndroidPlugin-1.0.0.jar",
+          "url": "AndroidPlugin-1.0.0.jar",
+          "size": 3710,
+          "sha512": "93f0bc2379a5e49806a84105bf11edd2d877da3bce06e81251fa99c576f5974c3e98bd785be25b93efd72df2cc99ecfc86981127225297cd31088dcd2c82dbfe",
+          "sha256": "38dfc43e69b11f5d6f34e70f6f5def98056ed2660a9a2542b2ab1f01f50996ab",
+          "sha1": "09b100467e93f072eec8ee6137c4f1a421e0f3f2",
+          "md5": "93269cf0288b275646db0f481bba8d93"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AndroidPlugin-1.0.0.jar",
+          "url": "AndroidPlugin-1.0.0.jar",
+          "size": 3710,
+          "sha512": "93f0bc2379a5e49806a84105bf11edd2d877da3bce06e81251fa99c576f5974c3e98bd785be25b93efd72df2cc99ecfc86981127225297cd31088dcd2c82dbfe",
+          "sha256": "38dfc43e69b11f5d6f34e70f6f5def98056ed2660a9a2542b2ab1f01f50996ab",
+          "sha1": "09b100467e93f072eec8ee6137c4f1a421e0f3f2",
+          "md5": "93269cf0288b275646db0f481bba8d93"
+        }
+      ]
+    }
+  ]
+}
