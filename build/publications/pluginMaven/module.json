@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "aexyn.android",
+    "group": "com.github.ankitahuja0508",
     "module": "AndroidPlugin",
     "version": "1.0.0",
     "attributes": {
@@ -10,8 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.8",
-      "buildId": "ge2tnvxt5ne4hlacp2h7luyfb4"
+      "version": "7.0.2"
     }
   },
   "variants": [
@@ -30,11 +29,11 @@
         {
           "name": "AndroidPlugin-1.0.0.jar",
           "url": "AndroidPlugin-1.0.0.jar",
-          "size": 3710,
-          "sha512": "93f0bc2379a5e49806a84105bf11edd2d877da3bce06e81251fa99c576f5974c3e98bd785be25b93efd72df2cc99ecfc86981127225297cd31088dcd2c82dbfe",
-          "sha256": "38dfc43e69b11f5d6f34e70f6f5def98056ed2660a9a2542b2ab1f01f50996ab",
-          "sha1": "09b100467e93f072eec8ee6137c4f1a421e0f3f2",
-          "md5": "93269cf0288b275646db0f481bba8d93"
+          "size": 3723,
+          "sha512": "df5f9be0be08b60499eca36bf13fc4ad6aae58b64ea2878e86ba1f7ee4823c83792e7ea9c5346c17a216982c129217e13ff6e3f0a5c9b4471375d884e34028ed",
+          "sha256": "44da2123afb5e6efa1067a08a3e07c3625c8037b3793211cc4c395957221c44d",
+          "sha1": "f632c8e8f0db455f125f3a0b7848f3931cabfad7",
+          "md5": "c9c274fe79d238854e7bbaca161a75ff"
         }
       ]
     },
@@ -69,11 +68,11 @@
         {
           "name": "AndroidPlugin-1.0.0.jar",
           "url": "AndroidPlugin-1.0.0.jar",
-          "size": 3710,
-          "sha512": "93f0bc2379a5e49806a84105bf11edd2d877da3bce06e81251fa99c576f5974c3e98bd785be25b93efd72df2cc99ecfc86981127225297cd31088dcd2c82dbfe",
-          "sha256": "38dfc43e69b11f5d6f34e70f6f5def98056ed2660a9a2542b2ab1f01f50996ab",
-          "sha1": "09b100467e93f072eec8ee6137c4f1a421e0f3f2",
-          "md5": "93269cf0288b275646db0f481bba8d93"
+          "size": 3723,
+          "sha512": "df5f9be0be08b60499eca36bf13fc4ad6aae58b64ea2878e86ba1f7ee4823c83792e7ea9c5346c17a216982c129217e13ff6e3f0a5c9b4471375d884e34028ed",
+          "sha256": "44da2123afb5e6efa1067a08a3e07c3625c8037b3793211cc4c395957221c44d",
+          "sha1": "f632c8e8f0db455f125f3a0b7848f3931cabfad7",
+          "md5": "c9c274fe79d238854e7bbaca161a75ff"
         }
       ]
     }
