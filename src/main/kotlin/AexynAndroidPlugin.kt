@@ -61,9 +61,6 @@ class AexynAndroidPlugin : Plugin<Project> {
             add("debugImplementation" , "com.facebook.flipper:flipper:0.90.2")
             add("debugImplementation" , "com.facebook.flipper:flipper-network-plugin:0.90.2")
             add("debugImplementation" , "com.facebook.soloader:soloader:0.10.1")
-            add("developmentImplementation" , "com.facebook.flipper:flipper:0.90.2")
-            add("developmentImplementation" , "com.facebook.flipper:flipper-network-plugin:0.90.2")
-            add("developmentImplementation" , "com.facebook.soloader:soloader:0.10.1")
 
             add("implementation" , "com.squareup.moshi:moshi-kotlin:1.12.0")
             add("implementation" , "com.squareup.moshi:moshi-adapters:1.12.0")
