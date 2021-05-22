@@ -3,7 +3,7 @@
   "component": {
     "group": "com.github.ankitahuja0508",
     "module": "AndroidPlugin",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "AndroidPlugin-1.0.0.jar",
-          "url": "AndroidPlugin-1.0.0.jar",
-          "size": 3723,
-          "sha512": "df5f9be0be08b60499eca36bf13fc4ad6aae58b64ea2878e86ba1f7ee4823c83792e7ea9c5346c17a216982c129217e13ff6e3f0a5c9b4471375d884e34028ed",
-          "sha256": "44da2123afb5e6efa1067a08a3e07c3625c8037b3793211cc4c395957221c44d",
-          "sha1": "f632c8e8f0db455f125f3a0b7848f3931cabfad7",
-          "md5": "c9c274fe79d238854e7bbaca161a75ff"
+          "name": "AndroidPlugin-1.0.2.jar",
+          "url": "AndroidPlugin-1.0.2.jar",
+          "size": 4036,
+          "sha512": "75c30f0d4b09e6ebd248b2067120ec7ee0256629058387be16a03ab535d13eec32aca98ca5254496018025b29ecab86afe396159c03642e3bcae5033f79154f1",
+          "sha256": "3dd27422a4ff5f392c6cbc5077bace0b8e729a0eb901e35f0dffc518f9876e8f",
+          "sha1": "0878d0d58647b3c75d51cabe29b59bdf025f2b13",
+          "md5": "5341dabd97b7f6cc64f45ac60f784560"
         }
       ]
     },
@@ -62,17 +62,31 @@
           "version": {
             "requires": "1.4.32"
           }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-safe-args-gradle-plugin",
+          "version": {
+            "requires": "2.3.5"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android-gradle-plugin",
+          "version": {
+            "requires": "2.35.1"
+          }
         }
       ],
       "files": [
         {
-          "name": "AndroidPlugin-1.0.0.jar",
-          "url": "AndroidPlugin-1.0.0.jar",
-          "size": 3723,
-          "sha512": "df5f9be0be08b60499eca36bf13fc4ad6aae58b64ea2878e86ba1f7ee4823c83792e7ea9c5346c17a216982c129217e13ff6e3f0a5c9b4471375d884e34028ed",
-          "sha256": "44da2123afb5e6efa1067a08a3e07c3625c8037b3793211cc4c395957221c44d",
-          "sha1": "f632c8e8f0db455f125f3a0b7848f3931cabfad7",
-          "md5": "c9c274fe79d238854e7bbaca161a75ff"
+          "name": "AndroidPlugin-1.0.2.jar",
+          "url": "AndroidPlugin-1.0.2.jar",
+          "size": 4036,
+          "sha512": "75c30f0d4b09e6ebd248b2067120ec7ee0256629058387be16a03ab535d13eec32aca98ca5254496018025b29ecab86afe396159c03642e3bcae5033f79154f1",
+          "sha256": "3dd27422a4ff5f392c6cbc5077bace0b8e729a0eb901e35f0dffc518f9876e8f",
+          "sha1": "0878d0d58647b3c75d51cabe29b59bdf025f2b13",
+          "md5": "5341dabd97b7f6cc64f45ac60f784560"
         }
       ]
     }

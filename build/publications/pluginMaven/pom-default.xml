@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.ankitahuja0508</groupId>
   <artifactId>AndroidPlugin</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <dependencies>
     <dependency>
       <groupId>com.android.tools.build</groupId>
@@ -20,6 +20,18 @@
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-gradle-plugin</artifactId>
       <version>1.4.32</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.navigation</groupId>
+      <artifactId>navigation-safe-args-gradle-plugin</artifactId>
+      <version>2.3.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>hilt-android-gradle-plugin</artifactId>
+      <version>2.35.1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
