@@ -51,8 +51,6 @@ class AexynAndroidPlugin : Plugin<Project> {
             add("implementation" , "com.airbnb.android:epoxy:4.4.4")
             add("implementation" , "com.airbnb.android:epoxy-databinding:4.4.4")
 
-            add("implementation" , "com.google.code.gson:gson:2.8.6")
-
             add("implementation" , "com.github.bumptech.glide:glide:4.12.0")
             add("kapt" , "com.github.bumptech.glide:compiler:4.12.0")
 
