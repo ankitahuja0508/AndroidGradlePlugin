@@ -8,7 +8,6 @@ class AexynAndroidPlugin : Plugin<Project> {
         project.plugins.apply("kotlin-android")
         project.plugins.apply("kotlin-kapt")
         project.plugins.apply("kotlin-parcelize")
-        project.plugins.apply("dagger.hilt.android.plugin")
         project.plugins.apply("androidx.navigation.safeargs.kotlin")
 
         // Adds required dependencies for all modules.
@@ -56,13 +55,13 @@ class AexynAndroidPlugin : Plugin<Project> {
 
             add("implementation" , "androidx.preference:preference-ktx:1.1.1")
 
-            /*add("debugImplementation" , "com.facebook.flipper:flipper:0.90.2")
-            add("debugImplementation" , "com.facebook.flipper:flipper-network-plugin:0.90.2")
-            add("debugImplementation" , "com.facebook.soloader:soloader:0.10.1")
-
             add("implementation" , "com.squareup.moshi:moshi-kotlin:1.12.0")
             add("implementation" , "com.squareup.moshi:moshi-adapters:1.12.0")
             add("kapt" , "com.squareup.moshi:moshi-kotlin-codegen:1.12.0")
+
+            /*add("debugImplementation" , "com.facebook.flipper:flipper:0.90.2")
+            add("debugImplementation" , "com.facebook.flipper:flipper-network-plugin:0.90.2")
+            add("debugImplementation" , "com.facebook.soloader:soloader:0.10.1")
 
             add("implementation" , "com.squareup.okhttp3:okhttp:4.9.1")
             add("implementation" , "com.squareup.okio:okio:2.10.0")

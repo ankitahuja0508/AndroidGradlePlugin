@@ -3,7 +3,7 @@
   "component": {
     "group": "com.github.ankitahuja0508",
     "module": "AndroidPlugin",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "AndroidPlugin-1.0.5.jar",
-          "url": "AndroidPlugin-1.0.5.jar",
-          "size": 3613,
-          "sha512": "7d3d981c2d88717b037bf9e8eb5a6a999a346cfafb5f3e6f704f259aeb983b2a7e3d7b726c08f2c80c5fc03a3d93745a28e4c1dec5af43ba98f37040f4c2bf74",
-          "sha256": "b0add8d829b297772ee6a651ff3b5389ebb7e7e1cf935b84ff75d2da63117dbb",
-          "sha1": "79d3ddcd0bbacb9f456f7e5ca26c3c83a499e393",
-          "md5": "686eaf6ed9995b006fcab45f9e5e689e"
+          "name": "AndroidPlugin-1.0.7.jar",
+          "url": "AndroidPlugin-1.0.7.jar",
+          "size": 3662,
+          "sha512": "8610fe273d3d115180ff9fd5796f5d0e6eeff8530245fa270f7071045fa768ec860624a911d681b14972104520edf7fb0a4defda78a5f7972b54f9c51aa17bbb",
+          "sha256": "4ce78cba6a6adcd20bb618529b74f6fe53f2c13d2487b91a9726c4028f93b24f",
+          "sha1": "78cad929116f863baf523beee449cc3ff78aa68c",
+          "md5": "89a8449e3a7ce36993dfa8af72629810"
         }
       ]
     },
@@ -80,13 +80,13 @@
       ],
       "files": [
         {
-          "name": "AndroidPlugin-1.0.5.jar",
-          "url": "AndroidPlugin-1.0.5.jar",
-          "size": 3613,
-          "sha512": "7d3d981c2d88717b037bf9e8eb5a6a999a346cfafb5f3e6f704f259aeb983b2a7e3d7b726c08f2c80c5fc03a3d93745a28e4c1dec5af43ba98f37040f4c2bf74",
-          "sha256": "b0add8d829b297772ee6a651ff3b5389ebb7e7e1cf935b84ff75d2da63117dbb",
-          "sha1": "79d3ddcd0bbacb9f456f7e5ca26c3c83a499e393",
-          "md5": "686eaf6ed9995b006fcab45f9e5e689e"
+          "name": "AndroidPlugin-1.0.7.jar",
+          "url": "AndroidPlugin-1.0.7.jar",
+          "size": 3662,
+          "sha512": "8610fe273d3d115180ff9fd5796f5d0e6eeff8530245fa270f7071045fa768ec860624a911d681b14972104520edf7fb0a4defda78a5f7972b54f9c51aa17bbb",
+          "sha256": "4ce78cba6a6adcd20bb618529b74f6fe53f2c13d2487b91a9726c4028f93b24f",
+          "sha1": "78cad929116f863baf523beee449cc3ff78aa68c",
+          "md5": "89a8449e3a7ce36993dfa8af72629810"
         }
       ]
     }
