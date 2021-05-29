@@ -55,6 +55,8 @@ class AexynAndroidPlugin : Plugin<Project> {
 
             add("implementation" , "androidx.preference:preference-ktx:1.1.1")
 
+            add("implementation" , "com.google.code.gson:gson:2.8.7")
+
             add("implementation" , "com.squareup.moshi:moshi-kotlin:1.12.0")
             add("implementation" , "com.squareup.moshi:moshi-adapters:1.12.0")
             add("kapt" , "com.squareup.moshi:moshi-kotlin-codegen:1.12.0")
