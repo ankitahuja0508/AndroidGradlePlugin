@@ -41,10 +41,10 @@ class AexynAndroidPlugin : Plugin<Project> {
             add("implementation" , "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3")
 
             //Dagger - Hilt
-            add("implementation" , "com.google.dagger:hilt-android:2.35.1")
+            /*add("implementation" , "com.google.dagger:hilt-android:2.35.1")
             add("kapt" , "com.google.dagger:hilt-android-compiler:2.35.1")
             add("implementation" , "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
-            add("kapt" , "androidx.hilt:hilt-compiler:1.0.0")
+            add("kapt" , "androidx.hilt:hilt-compiler:1.0.0")*/
 
             //Epoxy
             add("kapt" , "com.airbnb.android:epoxy-processor:4.4.4")
@@ -56,7 +56,7 @@ class AexynAndroidPlugin : Plugin<Project> {
 
             add("implementation" , "androidx.preference:preference-ktx:1.1.1")
 
-            add("debugImplementation" , "com.facebook.flipper:flipper:0.90.2")
+            /*add("debugImplementation" , "com.facebook.flipper:flipper:0.90.2")
             add("debugImplementation" , "com.facebook.flipper:flipper-network-plugin:0.90.2")
             add("debugImplementation" , "com.facebook.soloader:soloader:0.10.1")
 
@@ -67,7 +67,7 @@ class AexynAndroidPlugin : Plugin<Project> {
             add("implementation" , "com.squareup.okhttp3:okhttp:4.9.1")
             add("implementation" , "com.squareup.okio:okio:2.10.0")
             add("implementation" , "com.squareup.retrofit2:retrofit:2.9.0")
-            add("implementation" , "com.squareup.retrofit2:converter-moshi:2.9.0")
+            add("implementation" , "com.squareup.retrofit2:converter-moshi:2.9.0")*/
 
 
             add("testImplementation", "junit:junit:4.12")

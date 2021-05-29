@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.github.ankitahuja0508"
-version = "1.0.4"
+version = "1.0.5"
 
 pluginBundle {
     website = "https://github.com/ankitahuja0508"
@@ -39,7 +39,8 @@ gradlePlugin {
     val plugin by plugins.creating {
         id = "com.github.ankitahuja0508"
         displayName = "Android general Plugin"
-        description = "This plugin contains most general dependencies that can be used in an AndroidProject. Now includes retrofit, moshi, okhttp, flipper"
+        //description = "This plugin contains most general dependencies that can be used in an AndroidProject. Now includes retrofit, moshi, okhttp, flipper"
+        description = "This plugin contains most general dependencies that can be used in an AndroidProject without retrofit andf Hilt"
         implementationClass = "AexynAndroidPlugin"
     }
 }
