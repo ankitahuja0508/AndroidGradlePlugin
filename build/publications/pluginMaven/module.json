@@ -3,7 +3,7 @@
   "component": {
     "group": "com.github.ankitahuja0508",
     "module": "AndroidPlugin",
-    "version": "1.0.7",
+    "version": "1.1.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,13 +27,13 @@
       },
       "files": [
         {
-          "name": "AndroidPlugin-1.0.7.jar",
-          "url": "AndroidPlugin-1.0.7.jar",
-          "size": 3662,
-          "sha512": "8610fe273d3d115180ff9fd5796f5d0e6eeff8530245fa270f7071045fa768ec860624a911d681b14972104520edf7fb0a4defda78a5f7972b54f9c51aa17bbb",
-          "sha256": "4ce78cba6a6adcd20bb618529b74f6fe53f2c13d2487b91a9726c4028f93b24f",
-          "sha1": "78cad929116f863baf523beee449cc3ff78aa68c",
-          "md5": "89a8449e3a7ce36993dfa8af72629810"
+          "name": "AndroidPlugin-1.1.0.jar",
+          "url": "AndroidPlugin-1.1.0.jar",
+          "size": 3881,
+          "sha512": "8040418fcecb3c750ade4ef4ed70d43889506984475c6ff986c516c341d1d9d0a460a556ff2f42096f57380ba1be81cd390d20268ca517abaeba2408a06da47b",
+          "sha256": "2223764d55cca9c413cc99109fa32ec74492364a255090e147974864838385dd",
+          "sha1": "36b5956e04b3eddfc26f9107e6a6b59ac8fcf235",
+          "md5": "95657e2ddf8fc5d3096e4cb1ba404423"
         }
       ]
     },
@@ -80,13 +80,13 @@
       ],
       "files": [
         {
-          "name": "AndroidPlugin-1.0.7.jar",
-          "url": "AndroidPlugin-1.0.7.jar",
-          "size": 3662,
-          "sha512": "8610fe273d3d115180ff9fd5796f5d0e6eeff8530245fa270f7071045fa768ec860624a911d681b14972104520edf7fb0a4defda78a5f7972b54f9c51aa17bbb",
-          "sha256": "4ce78cba6a6adcd20bb618529b74f6fe53f2c13d2487b91a9726c4028f93b24f",
-          "sha1": "78cad929116f863baf523beee449cc3ff78aa68c",
-          "md5": "89a8449e3a7ce36993dfa8af72629810"
+          "name": "AndroidPlugin-1.1.0.jar",
+          "url": "AndroidPlugin-1.1.0.jar",
+          "size": 3881,
+          "sha512": "8040418fcecb3c750ade4ef4ed70d43889506984475c6ff986c516c341d1d9d0a460a556ff2f42096f57380ba1be81cd390d20268ca517abaeba2408a06da47b",
+          "sha256": "2223764d55cca9c413cc99109fa32ec74492364a255090e147974864838385dd",
+          "sha1": "36b5956e04b3eddfc26f9107e6a6b59ac8fcf235",
+          "md5": "95657e2ddf8fc5d3096e4cb1ba404423"
         }
       ]
     }
