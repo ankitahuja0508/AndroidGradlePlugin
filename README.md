@@ -83,7 +83,7 @@ maven {
 }
 ```
 
-in **repositories** block of top level **build.gradle**
+in **repositories** block of top level **build.gradle**.
 
 ```groovy
 repositories {
@@ -93,16 +93,31 @@ repositories {
 }
 ```
 
-Add below classpath in **dependencies** block of top level **build.gradle**
+Add below classpath in **dependencies** block of top level **build.gradle**.
 
 ```groovy
 classpath("com.github.ankitahuja0508:AndroidPlugin:1.1.3")
 ```
 
-Lastly, add below plugin id in plugins block of app level **build.gradle**
+Lastly, add below plugin id in plugins block of app level **build.gradle**.
 
 ```groovy
 id "com.github.ankitahuja0508"
+```
+
+### Enable/Disable Retrofit, Flipper and Hilt
+To enable/disable **retrofit, flipper and hilt** add following code in app level **build.gradle**. By default both are enabled.
+```groovy
+generalPluginOptions{
+    // to enable/disable retrofit and flipper
+    retrofit{
+        isEnabled = true
+    }
+    // to enable/disable hilt (dagger) dependency injection
+    hilt{
+        isEnabled = true
+    }
+}
 ```
 
 And then sync gradle. Plugin will be installed in your Android Project and you can use all these dependencies.
