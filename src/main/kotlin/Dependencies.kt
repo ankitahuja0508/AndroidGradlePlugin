@@ -1,3 +1,4 @@
+/*
 "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
 "androidx.core:core-ktx:1.3.2"
 "androidx.appcompat:appcompat:1.2.0"
@@ -42,4 +43,4 @@
 
 "junit:junit:4.12"
 "androidx.test.ext:junit:1.1.2"
-"androidx.test.espresso:espresso-core:3.3.0"
+"androidx.test.espresso:espresso-core:3.3.0"*/

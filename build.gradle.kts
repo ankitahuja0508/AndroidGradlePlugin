@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.github.ankitahuja0508"
-version = "1.1.3"
+version = "1.1.4"
 
 pluginBundle {
     website = "https://github.com/ankitahuja0508"

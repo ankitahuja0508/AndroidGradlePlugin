@@ -96,7 +96,7 @@ repositories {
 Add below classpath in **dependencies** block of top level **build.gradle**.
 
 ```groovy
-classpath("com.github.ankitahuja0508:AndroidPlugin:1.1.3")
+classpath("com.github.ankitahuja0508:AndroidPlugin:1.1.4")
 ```
 
 Lastly, add below plugin id in plugins block of app level **build.gradle**.
@@ -105,7 +105,7 @@ Lastly, add below plugin id in plugins block of app level **build.gradle**.
 id "com.github.ankitahuja0508"
 ```
 
-### Enable/Disable Retrofit, Flipper and Hilt
+### Enable/Disable Retrofit & Flipper , Hilt, kapt
 To enable/disable **retrofit, flipper and hilt** add following code in app level **build.gradle**. By default both are enabled.
 ```groovy
 generalPluginOptions{
@@ -116,6 +116,10 @@ generalPluginOptions{
     // to enable/disable hilt (dagger) dependency injection
     hilt{
         isEnabled = true
+    }
+    // to enable/disable kapt dependency
+    dependencyOption{
+        addKapt = true
     }
 }
 ```
