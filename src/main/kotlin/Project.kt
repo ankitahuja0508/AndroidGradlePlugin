@@ -21,6 +21,7 @@ fun Project.addRetrofitDependencies(configurationName: String = "implementation"
 fun Project.addHiltDependencies(configurationName: String = "implementation") {
     val hiltOption = extensions.getByType<GeneralPluginOptionExtension>().hilt
     if(hiltOption.isEnabled) {
+        project.plugins.apply("dagger.hilt.android.plugin")
         dependencies {
             //Dagger - Hilt
             add("implementation" , "com.google.dagger:hilt-android:2.35.1")

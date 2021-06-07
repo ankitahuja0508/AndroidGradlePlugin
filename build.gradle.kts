@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.github.ankitahuja0508"
-version = "1.1.4"
+version = "1.1.5"
 
 pluginBundle {
     website = "https://github.com/ankitahuja0508"
@@ -30,7 +30,7 @@ dependencies {
     implementation("com.android.tools.build:gradle:4.2.1")
     implementation(kotlin("gradle-plugin", "1.4.32"))
     implementation("androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5")
-    implementation("com.google.dagger:hilt-android-gradle-plugin:2.35.1")
+    implementation("com.google.dagger:hilt-android-gradle-plugin:2.36")
 
 }
 
