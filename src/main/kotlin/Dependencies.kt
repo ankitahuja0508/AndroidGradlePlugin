@@ -41,6 +41,10 @@
 "com.squareup.moshi:moshi-adapters:1.12.0"
 "com.squareup.moshi:moshi-kotlin-codegen:1.12.0"
 
+com.intuit.ssp:ssp-android:1.0.6
+
+com.intuit.sdp:sdp-android:1.0.6
+
 "junit:junit:4.12"
 "androidx.test.ext:junit:1.1.2"
 "androidx.test.espresso:espresso-core:3.3.0"*/

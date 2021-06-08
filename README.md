@@ -96,7 +96,7 @@ repositories {
 Add below classpath in **dependencies** block of top level **build.gradle**.
 
 ```groovy
-classpath("com.github.ankitahuja0508:AndroidPlugin:1.1.5")
+classpath("com.github.ankitahuja0508:AndroidPlugin:1.1.6")
 ```
 
 Lastly, add below plugin id in plugins block of app level **build.gradle**.

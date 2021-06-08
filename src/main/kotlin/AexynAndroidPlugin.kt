@@ -58,6 +58,9 @@ class AexynAndroidPlugin : Plugin<Project> {
 
             add("api" , "androidx.preference:preference-ktx:1.1.1")
 
+            add("api" , "com.intuit.sdp:sdp-android:1.0.6")
+            add("api" , "com.intuit.ssp:ssp-android:1.0.6")
+
             // Moshi
             add("api" , "com.squareup.moshi:moshi-kotlin:1.12.0")
             add("api" , "com.squareup.moshi:moshi-adapters:1.12.0")
